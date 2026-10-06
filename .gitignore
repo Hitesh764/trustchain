@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Env files (never commit secrets/keys)
+.env
+.env.local
+.env.*.local
+
+# Build output
+client/dist/
+server/dist/
+
+# Hardhat
+artifacts/
+cache/
+typechain-types/
+
+# Uploads (local dev only)
+server/uploads/*
+!server/uploads/.gitkeep
+uploads/*
+!uploads/.gitkeep
+
+# Test output
+coverage/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
